@@ -1,1 +1,6 @@
-
+flask
+flask-cors
+pandas
+joblib
+prophet
+scikit-learn
