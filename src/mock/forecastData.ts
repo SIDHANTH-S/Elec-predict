@@ -25,7 +25,7 @@ export async function fetchForecastData(startDate: string, endDate: string) {
       holiday: 0
     };
 
-    const response = await fetch("http://localhost:5000/predict", {
+    const response = await fetch("https://elec-predict.onrender.com/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(requestBody),
