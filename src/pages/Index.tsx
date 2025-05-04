@@ -156,16 +156,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="mt-6">
-            <AdvancedOptions 
-              region={region}
-              setRegion={setRegion}
-              confidenceInterval={confidenceInterval}
-              setConfidenceInterval={setConfidenceInterval}
-              includeWeather={includeWeather}
-              setIncludeWeather={setIncludeWeather}
-            />
-          </div>
+          
         </div>
         
         <div className={cn(
